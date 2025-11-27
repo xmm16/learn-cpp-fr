@@ -31,9 +31,9 @@ int main() {
   int num_one = std::stoi(num_one_str);
   int num_two = std::stoi(num_two_str);
 
-  std::cout << "Sum: " << sum(num_one, num_two) << "\n";
-  std::cout << "Product: " << product(num_one, num_two) << "\n";
-  std::cout << "Max num: " << max_num(num_one, num_two) << "\n";
+  std::cout << "Sum: " << sum(num_one, num_two) << '\n';
+  std::cout << "Product: " << product(num_one, num_two) << '\n';
+  std::cout << "Max num: " << max_num(num_one, num_two) << '\n';
 
   return 0;
 }
