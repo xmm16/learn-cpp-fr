@@ -1,7 +1,6 @@
 #include <algorithm>
 #include <iostream>
 #include <numeric>
-#include <ranges>
 #include <vector>
 
 int main() {
@@ -18,7 +17,6 @@ int main() {
           std::cout << "No values provided" << '\n';
           return 0;
         }
-
         std::cout << "Length: " << num_list.size() << '\n';
         std::cout << "Sum: "
                   << std::accumulate(num_list.begin(), num_list.end(), 0)
@@ -29,12 +27,6 @@ int main() {
         std::cout << "Max: "
                   << *std::max_element(num_list.begin(), num_list.end())
                   << '\n';
-        auto transformed_num_list =
-            num_list | std::views::transform([](int n) { return n + 1; });
-        std::cout << '[';
-        std::ranges::for_each(transformed_num_list,
-                              [](int n) { std::cout << n << ','; });
-        std::cout << "]\n";
         return 0;
       }
 
