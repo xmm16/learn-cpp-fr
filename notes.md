@@ -16,7 +16,9 @@
 - std::fill(v.begin(), v.end(), val_to_fill_with);
 - std::sort(v.begin(), v.end(), optional func / lambda);
 - std::reverse(v.begin(), v.end());
-- std::merge(a.begin(), a.end(), b.begin(), b.end(), out.begin());
+- std::merge(v.begin(), v.end(), w.begin(), w.end(), out.begin());
+- std::move(v) // moves ownership of v to whatever you assign the move to
+- std::copy(v.begin(), v.end(), out.begin())
 - std::unordered_map<key_type, value_type> name;
 
 # lvals and rvals
