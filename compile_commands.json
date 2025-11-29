@@ -1,0 +1,80 @@
+[
+  {
+    "arguments": [
+      "/sbin/g++",
+      "-c",
+      "--std=c++23",
+      "-o",
+      "build/thing",
+      "src/algorithms_practice.cpp"
+    ],
+    "directory": "/home/eshnd/Projects/learn-cpp-fr",
+    "file": "/home/eshnd/Projects/learn-cpp-fr/src/algorithms_practice.cpp",
+    "output": "/home/eshnd/Projects/learn-cpp-fr/build/thing"
+  },
+  {
+    "arguments": [
+      "/sbin/g++",
+      "-c",
+      "--std=c++23",
+      "-o",
+      "build/thing",
+      "src/ask_name_age.cpp"
+    ],
+    "directory": "/home/eshnd/Projects/learn-cpp-fr",
+    "file": "/home/eshnd/Projects/learn-cpp-fr/src/ask_name_age.cpp",
+    "output": "/home/eshnd/Projects/learn-cpp-fr/build/thing"
+  },
+  {
+    "arguments": [
+      "/sbin/g++",
+      "-c",
+      "--std=c++23",
+      "-o",
+      "build/thing",
+      "src/ask_two_nums.cpp"
+    ],
+    "directory": "/home/eshnd/Projects/learn-cpp-fr",
+    "file": "/home/eshnd/Projects/learn-cpp-fr/src/ask_two_nums.cpp",
+    "output": "/home/eshnd/Projects/learn-cpp-fr/build/thing"
+  },
+  {
+    "arguments": [
+      "/sbin/g++",
+      "-c",
+      "--std=c++23",
+      "-o",
+      "build/thing",
+      "src/functions_practice.cpp"
+    ],
+    "directory": "/home/eshnd/Projects/learn-cpp-fr",
+    "file": "/home/eshnd/Projects/learn-cpp-fr/src/functions_practice.cpp",
+    "output": "/home/eshnd/Projects/learn-cpp-fr/build/thing"
+  },
+  {
+    "arguments": [
+      "/sbin/g++",
+      "-c",
+      "--std=c++23",
+      "-o",
+      "build/thing",
+      "src/temperature_calculator.cpp"
+    ],
+    "directory": "/home/eshnd/Projects/learn-cpp-fr",
+    "file": "/home/eshnd/Projects/learn-cpp-fr/src/temperature_calculator.cpp",
+    "output": "/home/eshnd/Projects/learn-cpp-fr/build/thing"
+  },
+  {
+    "arguments": [
+      "/sbin/g++",
+      "-c",
+      "--std=c++23",
+      "-o",
+      "build/thing",
+      "src/vector_practice.cpp"
+    ],
+    "directory": "/home/eshnd/Projects/learn-cpp-fr",
+    "file": "/home/eshnd/Projects/learn-cpp-fr/src/vector_practice.cpp",
+    "output": "/home/eshnd/Projects/learn-cpp-fr/build/thing"
+  }
+]
