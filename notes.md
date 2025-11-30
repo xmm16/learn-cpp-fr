@@ -101,3 +101,5 @@ std::vector<int> v = {1, 2, 3, 4};
 - std::valarray<T>
 - std::span<T>
 
+# exceptions
+- catch the const std::exception& e and use e.what() to print it
